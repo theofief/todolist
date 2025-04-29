@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel ="stylesheet" href="css/style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <input type="text" id="toDo-input" placeholder="Enter a new task">
+    <button id="add-button">Add</button>
+    <ul id="toDo-list"></ul>
+    <script type="text/javascript">
+        document.getElementById('add-button').addEventListener('click', addToDo);
+    </script>
+</body>
+</html>
