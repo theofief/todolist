@@ -43,15 +43,15 @@ If you modify the code, you must provide clear attribution to the original proje
 
 If you modify the code or create derivative works, you must clearly indicate the changes made and include the original attribution as described above. Modified versions of the project must be shared under the same conditions as the original project.
 
-###No Warranty
+### No Warranty
 
 This project is provided “as-is,” without any warranties, either express or implied, including but not limited to the implied warranties of merchantability or fitness for a particular purpose. The author is not responsible for any damage or loss arising from the use of this project, and you use it at your own risk.
 
-###Liability
+### Liability
 
 The author is not liable for any claims, damages, or other legal actions that arise from the use of this project. You agree to indemnify and hold the author harmless from any claims or demands, including reasonable attorney fees, arising from your use or misuse of the project.
 
-###Contact
+### Contact
 
 For any commercial licensing requests, inquiries, or questions regarding the project, please contact the author at theo.tf.studio@gmail.com. If you discover any security issues or have suggestions for improvements, please open an issue on the project’s GitHub repository or reach out directly.
 
