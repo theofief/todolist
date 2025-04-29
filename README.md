@@ -1,30 +1,38 @@
-# 📝 ToDoList – Application de gestion de tâches
+# 📝 ToDoList – Task Management Web App
 
-**ToDoList** est une application web simple et efficace permettant de gérer ses tâches quotidiennes directement depuis son navigateur.  
-Aucune installation ni backend n’est nécessaire.
-
-## 🔧 Fonctionnalités
-
-- ✅ Ajouter, modifier et supprimer des tâches  
-- 🕒 Marquer une tâche comme terminée ou non  
-- 📱 Interface responsive (mobile, tablette, desktop)
-
-## ⚙️ Lancement
-
-- Ouvrir simplement le fichier `index.html` dans un navigateur  
-- Ou utiliser **Live Server** dans Visual Studio Code pour un rafraîchissement automatique
-
-## 🛠️ Stack technique
-
-- **HTML**  
-- **CSS**  
-- **JavaScript Vanilla**  
-- Sauvegarde des données avec **LocalStorage**
-
-## 📌 État du projet
-
-Projet **100% frontend**, fonctionnel, rapide et sans dépendance externe.
+**ToDoList** is a simple and efficient web application that helps you manage your daily tasks directly from your browser.  
+No installation or backend required.
 
 ---
 
-*Contributions, suggestions ou retours bienvenus !*
+## 🔧 Features
+
+- ✅ Add, edit, and delete tasks  
+- 🕒 Mark tasks as completed or pending  
+- 📱 Fully responsive interface (mobile, tablet, desktop)
+
+---
+
+## ⚙️ How to Run
+
+- Simply open the `index.html` file in your browser  
+- Or use **Live Server** in Visual Studio Code for auto-refresh during development
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML**  
+- **CSS**  
+- **Vanilla JavaScript**  
+- Data persistence via **LocalStorage**
+
+---
+
+## 📌 Project Status
+
+Fully functional **frontend-only** project — lightweight, fast, and dependency-free.
+
+---
+
+*Contributions, feedback, and suggestions are welcome!*
