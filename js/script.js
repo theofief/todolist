@@ -29,24 +29,45 @@ function addToDo() {
     displayToDos();
 }
 
+function editToDo(oldText, newText) {
+    const task = tasks.find(t => t.task === oldText);
+    if (task) {
+        task.task = newText;
+        displayToDos();
+    }
+}
+
 function displayToDos() {
     const ul = document.getElementById("toDo-list");
     ul.innerHTML = "";
 
     tasks.forEach(task => {
         const li = document.createElement("li");
-        li.textContent = task.task;
         li.classList.add("toDo-item");
         if (task.statut) li.classList.add("completed");
 
-        li.addEventListener("click", () => {
+        const taskSpan = document.createElement("span");
+        taskSpan.textContent = task.task;
+        taskSpan.addEventListener("click", () => {
             toggleComplete(task.task);
+        });
+
+        const editBtn = document.createElement("button");
+        editBtn.textContent = "✏️";
+        editBtn.classList.add("edit-btn");
+        editBtn.addEventListener("click", () => {
+            const newText = prompt("Modifier la tâche :", task.task);
+            if (newText && newText.trim() !== "") {
+                editToDo(task.task, newText.trim());
+            }
         });
 
         li.addEventListener("dblclick", () => {
             removeToDo(task.task);
         });
 
+        li.appendChild(taskSpan);
+        li.appendChild(editBtn);
         ul.appendChild(li);
     });
 }
